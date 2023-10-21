@@ -5,8 +5,8 @@ Bem-vindo ao meu portfólio de análise de dados! Este repositório contém uma 
 
 | Nome do Projeto | Notebook ou Link	 | Linguagem  | Observação |
 | ------- | --------- | ------- | --------- |
-| Analise de clientes inadimplentes   | [Analise de clientes inadimplentes](https://github.com/fsemeneze/Analise-de-clientes-inadimplentes.git) | Python  | Um projeto de insight da definição do problema, passando pelo estagio de processamento e limpeza dos dados, análise exploratória e comunicação dos resultados gerados |
-| Analise de vendas Petshop | [Alura Pets](https://app.powerbi.com/view?r=eyJrIjoiMjcyYjMxYmYtMjdjNy00ZDkzLWE3N2ItMDZlNzhhZTg3M2JhIiwidCI6IjFlMWM5MzI3LWZhOTUtNDJjNS1hMGFkLWExNGE1ODMwOTMzMCJ9) | Power BI  | Este dashboard fornece uma visão abrangente das vendas de uma empresa de Petshop ao longo de um determinado período. Ele foi projetado para ajudar a empresa a analisar e monitorar o desempenho das vendas, identificar padrões e tomar decisões estratégicas. (Criado a partir do curso de Power BI Desktop da Alura) |
+| Analise de clientes inadimplentes   | [Analise de clientes inadimplentes](https://github.com/fsemeneze/Analise-de-clientes-inadimplentes/blob/master/Projeto/README.md) | Python  | Um projeto de insight da definição do problema, passando pelo estagio de processamento e limpeza dos dados, análise exploratória e comunicação dos resultados gerados |
+| Washington sobre duas rodas Uma análise do aluguel de bicicletas | [Analise aluegueis de bicicleta](https://app.powerbi.com/view?r=eyJrIjoiZWUzZmEyODItZjRiOS00NjAzLTkwZGYtNTY0ZTgwODdkYjljIiwidCI6IjFlMWM5MzI3LWZhOTUtNDJjNS1hMGFkLWExNGE1ODMwOTMzMCJ9) | Power BI  | EFornecer dados e insights sobre o uso de bicicletas compartilhadas na cidade de Washington, a fim de melhorar a eficiência e a qualidade do serviço. |
 
 ## Contato
 
