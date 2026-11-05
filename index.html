@@ -6,6 +6,10 @@
 <title>Fabricio Soares Menezes · Portfólio de Dados</title>
 <meta name="description" content="Portfólio de análise e engenharia de dados: dbt, BigQuery, Power BI, Python. Projetos, dashboards interativos e automação.">
 <meta name="theme-color" content="#2E2827">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Fabricio Soares Menezes · Portfólio de Dados">
+<meta property="og:description" content="Análise e engenharia de dados: dbt, BigQuery, Power BI, Python. Projetos, dashboards interativos e automação.">
+<meta name="twitter:card" content="summary_large_image">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📊</text></svg>">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -51,13 +55,13 @@
 
   /* ---------- hero ---------- */
   .hero{padding:64px 0 30px}
-  .sticker{display:inline-block;font-weight:700;font-size:.85rem;letter-spacing:.06em;text-transform:uppercase;
+  .sticker{display:inline-block;font-weight:700;font-size:.8rem;letter-spacing:.08em;text-transform:uppercase;
            background:var(--peach);border:var(--border);border-radius:10px;padding:4px 14px;
-           box-shadow:var(--shadow-sm);transform:rotate(-2deg)}
+           box-shadow:var(--shadow-sm)}
   .hero h1{font-family:var(--display);font-weight:800;font-size:clamp(2.4rem,6vw,4rem);line-height:1.08;
            letter-spacing:-.02em;margin-top:26px;max-width:15ch;color:var(--cream)}
-  .hl-pink{background:var(--pink);color:var(--bg);padding:0 .22em;border-radius:.18em;display:inline-block;transform:rotate(-1.5deg)}
-  .hl-peach{background:var(--peach);color:var(--bg);padding:0 .18em;border-radius:.18em;display:inline-block;transform:rotate(1.2deg)}
+  .hl-pink{background:var(--pink);color:var(--bg);padding:0 .22em;border-radius:.18em;display:inline-block}
+  .hl-peach{background:var(--peach);color:var(--bg);padding:0 .18em;border-radius:.18em;display:inline-block}
   .hero .bio{max-width:600px;margin-top:22px;color:var(--cream);opacity:.92;font-size:1.08rem}
   .badges{display:flex;gap:8px;flex-wrap:wrap;margin-top:22px}
   .badge{background:transparent;border:2px solid rgba(253,246,237,.45);border-radius:999px;padding:3px 14px;
@@ -74,10 +78,7 @@
   .stat{border:var(--border);border-radius:14px;box-shadow:var(--shadow-sm);padding:18px 20px;color:var(--cream)}
   .stat b{font-family:var(--display);font-weight:800;font-size:1.5rem;display:block;color:var(--peach)}
   .stat span{font-size:.88rem;font-weight:600;opacity:.92}
-  .stat:nth-child(1){background:#3A2E28}
-  .stat:nth-child(2){background:#3D2F26}
-  .stat:nth-child(3){background:#40311F}
-  .stat:nth-child(4){background:#37302D}
+  .stat:nth-child(n){background:#3B2F29}
 
   /* ---------- sections ---------- */
   section{padding:58px 0 10px}
@@ -90,16 +91,19 @@
   .card{background:var(--surface);border:var(--border);border-radius:18px;box-shadow:var(--shadow);
         overflow:hidden;transition:transform .12s,box-shadow .12s;color:var(--cream)}
   .card:hover{transform:translate(-3px,-3px);box-shadow:9px 9px 0 var(--deep)}
-  .card-head{display:flex;align-items:center;gap:12px;padding:14px 24px;border-bottom:var(--border)}
-  .card-head .emoji{font-size:1.5rem}
+  .card-head{display:flex;align-items:center;gap:12px;padding:14px 24px;border-bottom:var(--border);background:#4A332B}
+  .card-head .emoji{font-size:1.25rem}
+  .card-head.bg-pink::before,.card-head.bg-peach::before,.card-head.bg-beige::before{
+    content:"";display:block;width:9px;height:9px;border-radius:50%;background:var(--peach);border:2px solid var(--deep);
+    flex-shrink:0}
   .card-head h3{font-family:var(--display);font-weight:800;font-size:1.25rem}
   .card-head h3 a{color:var(--cream)}
   .card-head h3 a:hover{color:var(--peach)}
   .card-head .kind{margin-left:auto;font-size:.78rem;font-weight:700;letter-spacing:.05em;text-transform:uppercase;
                    background:transparent;border:2px solid var(--cream);border-radius:999px;padding:3px 12px;white-space:nowrap;color:var(--cream)}
-  .card-head.bg-peach{background:var(--beige)}
-  .card-head.bg-pink{background:var(--pink)}
-  .card-head.bg-beige{background:#8F5327}
+  .card-head.bg-peach{background:#4A332B}
+  .card-head.bg-pink{background:#4A332B}
+  .card-head.bg-beige{background:#4A332B}
   .card-body{padding:22px 24px 26px}
   .card-body p{margin-top:4px;color:var(--cream)}
   .card ul{margin:14px 0 0 20px;font-size:.95rem;color:var(--cream)}
@@ -201,10 +205,10 @@
       </div>
 
       <div class="card">
-        <div class="card-head bg-pink" style="color:var(--cream)">
+        <div class="card-head bg-pink">
           <span class="emoji">🚲</span>
-          <h3><a href="https://app.powerbi.com/view?r=eyJrIjoiZWUzZmEyODItZjRiOS00NjAzLTkwZGYtNTY0ZTgwODdkYjljIiwidCI6IjFlMWM5MzI3LWZhOTUtNDJjNS1hMGFkLWExNGE1ODMwOTMzMCJ9" target="_blank" style="color:var(--cream)" data-pt="Washington sobre duas rodas" data-en="Washington on two wheels">Washington sobre duas rodas</a></h3>
-          <span class="kind" style="border-color:var(--cream);color:var(--cream)">Power BI</span>
+          <h3><a href="https://app.powerbi.com/view?r=eyJrIjoiZWUzZmEyODItZjRiOS00NjAzLTkwZGYtNTY0ZTgwODdkYjljIiwidCI6IjFlMWM5MzI3LWZhOTUtNDJjNS1hMGFkLWExNGE1ODMwOTMzMCJ9" target="_blank" data-pt="Washington sobre duas rodas" data-en="Washington on two wheels">Washington sobre duas rodas</a></h3>
+          <span class="kind">Power BI</span>
         </div>
         <div class="card-body">
           <p data-pt="Influência das estações do ano no aluguel de bicicletas compartilhadas em Washington — relatório Power BI publicado com 3 páginas." data-en="How seasons influence shared bike rentals in Washington — a published 3-page Power BI report.">Influência das estações do ano no aluguel de bicicletas compartilhadas em Washington — relatório Power BI publicado com 3 páginas.</p>
