@@ -10,6 +10,17 @@ Eu transformo **dados em decisão** — e garanto que eles cheguem lá de forma 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-fabriciosmz-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/fabriciosmz/)
 [![E-mail](https://img.shields.io/badge/E--mail-fmenezes722%40gmail.com-D14836?style=flat&logo=gmail&logoColor=white)](mailto:fmenezes722@gmail.com)
 
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat&logo=postgresql&logoColor=white)
+![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=flat&logo=powerbi&logoColor=black)
+![dbt](https://img.shields.io/badge/dbt-FF694B?style=flat&logo=dbt&logoColor=white)
+![BigQuery](https://img.shields.io/badge/BigQuery-4285F4?style=flat&logo=googlecloud&logoColor=white)
+![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=flat&logo=supabase&logoColor=white)
+![SQL Server](https://img.shields.io/badge/SQL_Server-CC2927?style=flat&logo=microsoftsqlserver&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat&logo=redis&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
+
 ---
 
 ## 🇧🇷 Sobre mim
